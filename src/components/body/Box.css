@@ -1,0 +1,205 @@
+.data-box{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 150vh;
+    background-color: #F2F5FA;
+    justify-content: center;
+    align-items: center;
+
+    /* border:2px solid; */
+
+
+}
+.img-content{
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    height: 70%;
+    /* border: 2px solid; */
+    justify-content: center;
+
+    
+
+}
+.data-img{
+    
+    width: 40%;
+    height: 92%;
+    margin: 1.5em;
+    
+    /* border: 2px solid; */
+    
+}
+.data-img img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px 5px 5px 55px;
+    
+
+}
+.data-content{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 95%;
+
+}
+.data-content span{
+    display: block;
+    font-family: Nunito,Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+    margin: 1.5em;
+    text-align: left;
+}
+.fidgets-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 95vw;
+    height: 20vh;
+    /* border: 2px solid; */
+    
+}
+.fidgets{
+    width:12%;
+    height: 50%;
+    opacity: 1;
+    transition: opacity 400ms;
+    transition-delay: 0ms;
+
+}
+.fidgets img{
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+    transition-duration: 0.3s;
+}
+.fidgets img:hover{
+    opacity:1;
+}
+.overlap{
+    width:95vw;
+    height:80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    top: -3.2em;
+    /* border: 2px solid; */
+
+
+}
+.overlap-left{
+    width: 55%;
+    height: auto;
+    background-color: #2F5AA8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: -6.5em;
+    top: 2em;
+    border-radius: 5px;
+
+}
+.overlap-left-list{
+    width: 85%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+
+}
+.item{
+    width: 95%;
+    height: auto;
+    background-color: white;
+    border-radius: 5px;
+    margin: 0.5em;
+    cursor: pointer;
+
+}
+.title p{
+    font-family: Nunito,Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    font-size: 12pt;
+    padding: 1em;
+}
+.overlap-right{
+    width: 55%;
+    height: 90%;
+    background-image: url("https://kreativantech.com/wp-content/uploads/2021/04/1130.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+}
+
+ .content{
+    color: white;
+    height: auto;
+    background-color: #2F5AA8;
+    
+ }
+ .s-blog{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .blog{
+    display: block;
+    width: 20%;
+    /* border: 2px solid; */
+    font-family: Nunito,Arial, Helvetica, sans-serif;
+    font-size: 15pt;
+    font-weight: 600;
+ }
+ hr{
+    display: block;
+    width: 70%;
+    /* border: 2px solid; */
+    position: relative;
+    left: 15em;
+    top: -1.5em;
+ }
+ .data-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 95%;
+    height: auto;
+    margin: 1.5em;
+ }
+.data-img2{
+    width: 55%;
+    height: auto;
+
+}
+.data-img2 img{
+    width: 95%;
+    height: 95%;
+}
+.data-content2{
+    width: 45%;
+    height: auto;
+    margin: 1.5em;
+}
+.data-content2 p{
+    display: block;
+    width: 95%;
+    height: 90%;
+    text-align: left;
+    font-family: Nunito,Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+    font-weight: 200;
+}
+
+ 

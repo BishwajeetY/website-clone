@@ -1,0 +1,41 @@
+.numbers-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 90vw;
+    height: 30vh;
+    margin-left: 3.5em;
+    box-shadow: 1px 1px 8px 1px black;
+    border-radius: 5px;
+}
+    
+
+.sub-number-box{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 20%;
+height: 60%;
+/* border: 2px solid; */
+}
+.number{
+    font-size: 55pt;
+    position: relative;
+    color:transparent;
+    -webkit-text-stroke: 1px #005aac;
+
+}
+.text{
+    display: block;
+    width: 90%;
+    height: auto;
+    font-size: 15pt;
+    font-family: Nunito,Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    position: relative;
+    background-color: white;
+    top: -1.5em;
+    
+}
